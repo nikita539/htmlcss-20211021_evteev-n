@@ -1,5 +1,7 @@
+
 body {
     margin: 0;
+    width: 100%;
 }
 .header {
     width: 100%;
@@ -14,14 +16,17 @@ body {
     color: white;
     background-color: red;
     margin: 0;
+    height: 50px;
 }
 
 .header__navbar {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     background-color: darkorange;
+    height: 50px;
 }
 
 .header__link-container {
@@ -38,12 +43,15 @@ body {
 }
 
 .content-main {
+    width: 100%;
     background-color: green;
     padding: 10px;
     margin-top: 0;
 }
 
 .content-main__article {
+    width: 100%;
+    height: 150px;
     background-color: blue;
     margin: 0;
     color: white;
@@ -51,6 +59,7 @@ body {
 
 .footer {
     width: 100%;
+    height: 50px;
     background-color: blueviolet;
     color: white;
     display: flex;
