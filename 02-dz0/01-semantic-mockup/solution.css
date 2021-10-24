@@ -49,11 +49,16 @@ body {
 }
 
 .content-main__article {
-    width: 100%;
+    width: auto;
     height: 150px;
     background-color: blue;
-    margin: 0;
+    padding: 10px;
     color: white;
+    margin-bottom: 10px;
+}
+
+.content-main__article:last-child {
+    margin-bottom: 0;
 }
 
 .footer {
@@ -65,4 +70,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+}
+
+.content-main__article-title {
+    margin: 0;
 }
