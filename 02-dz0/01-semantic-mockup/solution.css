@@ -75,3 +75,10 @@ body {
 .content-main__article-title {
     margin: 0;
 }
+
+.content-main__link {
+    margin-bottom: 10px;
+}
+.content-main__link:last-child {
+    margin-bottom: 0;
+}
