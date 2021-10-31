@@ -1,0 +1,13 @@
+.footer__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+
+
+    /* Black */
+
+    color: #212429;
+}

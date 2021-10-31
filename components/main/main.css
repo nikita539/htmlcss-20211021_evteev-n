@@ -1,0 +1,9 @@
+.main {
+    background-color: #ACB5BD;
+    height: 500px;
+}
+
+.main__card {
+    margin: 30px;
+    width: calc(30% - 30px);
+}
