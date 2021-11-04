@@ -1,1 +1,26 @@
 /* Стилизация кнопки */
+:root {
+    --background-color: #ACB5BD;
+}
+
+.container__buttons {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: var(--background-color);
+    padding: 30px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.button__position {
+    align-self: center;
+    justify-self: center;
+}
+
+.button {
+    width: calc(50% - 10px);
+    height: 48px;
+    border-radius: 8px;
+}

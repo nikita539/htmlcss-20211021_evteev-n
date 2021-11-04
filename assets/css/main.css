@@ -45,3 +45,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.button_color {
+    background-color: var(--purple);
+}
