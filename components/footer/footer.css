@@ -4,6 +4,7 @@
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
+    text-align: center;
     /* identical to box height, or 126% */
 
 
@@ -11,3 +12,10 @@
 
     color: #212429;
 }
+
+.footer__description {
+    text-align: center;
+    width: 640px;
+    margin: 0 auto 100px auto;
+}
+

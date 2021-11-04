@@ -1,9 +1,9 @@
 .main {
     background-color: #ACB5BD;
-    height: 500px;
+    height: auto;
 }
 
 .main__card {
-    margin: 30px;
+    margin: 15px;
     width: calc(30% - 30px);
 }

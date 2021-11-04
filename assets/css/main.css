@@ -33,3 +33,15 @@ body {
     padding: 0 15px;
     box-sizing: border-box;
 }
+
+.container__flex-position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__flex-position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
