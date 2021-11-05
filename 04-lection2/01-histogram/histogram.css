@@ -35,6 +35,7 @@
 
 .histogram__button {
     color: var(--purple);
+    cursor: pointer;
 }
 
 .histogram__graph {
