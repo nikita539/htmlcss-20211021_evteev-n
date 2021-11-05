@@ -1,1 +1,23 @@
 /* Стилизация аккордеона */
+@import "./assets/css/main.css";
+
+.accordion {
+    width: 730px;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.accordion__title {
+    cursor: pointer;
+}
+
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+
