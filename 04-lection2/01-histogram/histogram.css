@@ -1,0 +1,55 @@
+@import "./assets/css/main.css";
+.histogram {
+    width: 354px;
+    height: 185px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.histogram__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__count-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    width: 40%;
+}
+
+.histogram__title {
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.histogram__count {
+    color: var(--black);
+    letter-spacing: 0.5px;
+}
+
+.histogram__button {
+    color: var(--purple);
+}
+
+.histogram__graph {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    transform: rotate(180deg)
+}
+
+.histogram__graph-item {
+    list-style: none;
+    flex-grow: 1;
+    height: 40px;
+    background-color: var(--blue);
+    margin: 1px;
+}
