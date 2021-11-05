@@ -1,4 +1,4 @@
-
+@import "./assets/css";
 .header__title {
     /* h1 */
 
@@ -12,5 +12,5 @@
 
     /* Black */
 
-    color: #212429;
+    color: var(--black);
 }

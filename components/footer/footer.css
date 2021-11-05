@@ -1,3 +1,4 @@
+@import "./assets/css";
 .footer__title {
     font-family: Inter;
     font-style: normal;
@@ -10,13 +11,12 @@
 
     /* Black */
 
-    color: #212429;
+    color: var(--black);
 }
 
 .footer__description {
     text-align: center;
     width: 640px;
     margin: 0 auto 100px auto;
-;
 }
 
