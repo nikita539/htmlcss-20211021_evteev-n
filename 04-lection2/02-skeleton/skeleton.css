@@ -17,7 +17,7 @@
 }
 
 .skeleton__avatar {
-    width: 64px;
+    flex-basis: 64px;
     height: 64px;
     background-color: var(--grey-2);
     border-radius: 100%;
@@ -25,7 +25,7 @@
 }
 
 .skeleton__name-container {
-    width: 200px;
+    flex-basis: 85%;
     height: 100%;
     margin-left: 30px;
     display: flex;
