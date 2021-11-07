@@ -1,6 +1,4 @@
 /* Стилизация кнопки */
-@import "./assets/css/main.css";
-
 .button {
     width: 189px;
     height: 48px;
@@ -9,41 +7,47 @@
     text-decoration: none;
     text-align: center;
     cursor: pointer;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 
 /*button__primary*/
-.button__primary {
+.button_primary {
     background-color: var(--primary);
     color: var(--white);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.button__primary:hover {
+.button_primary:hover {
     background-color: var(--primary-hover);
 }
 
-.button__primary-disabled {
+.button_primary:disabled {
     background-color: var(--primary-disabled);
     color: var(--white);
     opacity: 0.5;
+    pointer-events: none;
 }
 
 /*button__secondary*/
-.button__secondary {
-    background-color: var(--purple);
+.button_secondary {
+    background-color: var(--secondary);
     color: var(--white);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.button__secondary:hover {
+.button_secondary:hover {
     background-color: var(--secondary-hover);
 }
 
-.button__secondary-disabled {
+.button_secondary:disabled {
     background-color: var(--purple-disabled);
     opacity: 0.5;
     color: var(--white);
+    pointer-events: none;
 }
 
 /*Alternate*/
@@ -57,8 +61,9 @@
     border: 1px solid #212429;
 }
 
-.button_alternate-disabled {
+.button_alternate:disabled {
     opacity: 0.5;
+    pointer-events: none;
 }
 
 
