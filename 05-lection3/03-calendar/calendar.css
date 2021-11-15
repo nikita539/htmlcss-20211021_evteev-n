@@ -1,0 +1,37 @@
+.calendar {
+    border: 1px solid var(--grey-3);
+    width: 304px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.calendar__title {
+    text-align: center;
+    margin-top: 0;
+    color: var(--black-blue);
+    font-size: 20px;
+}
+
+.calendar__numbers {
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+.calendar__day-number{
+    height: 36px;
+    background-color: var(--secondary);
+}
+
+.calendar__day-name {
+    color: var(--grey-3);
+    font-size: 14px;
+}
+
+.calendar__days-names {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
