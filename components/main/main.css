@@ -1,6 +1,5 @@
 .main {
-    background-color: #ACB5BD;
-    height: auto;
+    background-color: var(--grey-3);
 }
 
 .main__card {

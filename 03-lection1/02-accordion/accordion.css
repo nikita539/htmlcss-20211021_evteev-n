@@ -1,6 +1,4 @@
 /* Стилизация аккордеона */
-@import "./assets/css/main.css";
-
 .accordion {
     width: 730px;
     border: 1px solid #ACB5BD;
