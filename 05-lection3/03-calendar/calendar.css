@@ -16,18 +16,23 @@
     display: grid;
     height: 100%;
     justify-content: center;
+    gap: 2px;
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(5,1fr);
 }
 
 .calendar__day-number{
-    height: 36px;
-    background-color: var(--secondary);
+    color: var(--black-blue);
 }
 
 .calendar__day-name {
     color: var(--grey-3);
     font-size: 14px;
+}
+
+.calendar__item {
+    text-align: center;
+    padding: 10px;
 }
 
 .calendar__days-names {
