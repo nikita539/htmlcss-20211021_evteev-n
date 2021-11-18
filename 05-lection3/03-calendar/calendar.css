@@ -46,6 +46,7 @@
 
 .calender_interval {
     background-color: var(--calendar-interval);
+    opacity: 0.6;
 }
 
 .calendar__border_of_interval {
