@@ -2,14 +2,43 @@
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    row-gap: 36px;
+    background-color: var(--grey-1);
 }
 
 .page__header {
     height: 82px;
-    background-color: #F03D3E;
+    background-color: var(--white);
 }
 
 .page__footer {
     height: 132px;
-    background-color: #7048E8;
+    background-color: var(--grey-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__footer_title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
+
+.page__main {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.page__left-menu {
+    width: 229px;
+    height: 100%;
 }
