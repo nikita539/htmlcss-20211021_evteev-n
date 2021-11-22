@@ -1,0 +1,15 @@
+.page {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.page__header {
+    height: 82px;
+    background-color: #F03D3E;
+}
+
+.page__footer {
+    height: 132px;
+    background-color: #7048E8;
+}
