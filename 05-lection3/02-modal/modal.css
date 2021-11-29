@@ -1,17 +1,36 @@
 .modal {
     position: fixed;
-    z-index: 10 !important;
+    z-index: 5;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgb(196, 196, 196);
+    display: none;
+}
+
+.modal__container {
+    margin: 0 auto;
+}
+
+.modal__close-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__close-button {
+    cursor: pointer;
 }
 
 .modal__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    left: 50%;
     width: 428px;
-    height: 294px;
     background-color: var(--white);
     border-radius: 8px;
 }
@@ -35,3 +54,7 @@
     line-height: 24px;
     color: var(--grey-4);
 }
+
+/*close button*/
+
+
