@@ -2,7 +2,7 @@
     border: 1px solid var(--grey-3);
     width: 304px;
     border-radius: 8px;
-    padding: 25px;
+    padding: 28px 30px;
 }
 
 .calendar__wrapper {
