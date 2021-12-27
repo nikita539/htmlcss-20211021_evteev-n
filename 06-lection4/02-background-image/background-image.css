@@ -4,15 +4,16 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1024px){
-    .background__image {
-        background-image: url('./public/forest_1024.jpg');
-    }
-}
-
 @media screen and (max-width: 2560px){
     .background__image{
         background-image: url('./public/forest_2560.jpg');
+        background-position: center center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .background__image {
+        background-image: url('./public/forest_1024.jpg');
     }
 }
 
