@@ -11,10 +11,12 @@
     cursor: pointer;
 }
 
-details > summary {
-    list-style: none;
+
+.accordion__title {
+    list-style-type: none;
 }
-details > summary::-webkit-details-marker {
+
+.accordion__title::-webkit-details-marker {
     display: none;
 }
 
